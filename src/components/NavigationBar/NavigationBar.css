@@ -18,3 +18,14 @@
   .pad-left{
     padding-left:1rem !important;
     }
+
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+    .vertical-nav {
+        width: 21%;
+    }
+}
+
+.button {
+    width: auto;
+    border: none;
+}

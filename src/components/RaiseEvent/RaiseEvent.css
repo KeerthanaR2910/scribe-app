@@ -1,0 +1,14 @@
+.raise-event-container {
+    height: 100vh;
+
+}
+@media (min-width:992px) {
+    .raise-event-container {
+        margin-left: 17%;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+    .raise-event-container {
+        margin-left: 23%;
+    }
+}
