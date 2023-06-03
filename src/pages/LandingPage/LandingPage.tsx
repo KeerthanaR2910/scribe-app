@@ -1,5 +1,11 @@
+import NavigationBar from "../../components/NavigationBar";
+
 const LandingPage = () => {
-  return <div>Hello Hi!</div>
+  return (
+      <div>
+        <NavigationBar/>
+      </div>
+  )
 }
 
 export default LandingPage
