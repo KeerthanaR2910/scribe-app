@@ -1,4 +1,10 @@
 import "./NavigationBar.css"
+import CalendarMonthOutlinedIcon from '@mui/icons-material/CalendarMonthOutlined';
+import BookOnlineOutlinedIcon from '@mui/icons-material/BookOnlineOutlined';
+import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
+import EventNoteOutlinedIcon from '@mui/icons-material/EventNoteOutlined';
+import GridViewOutlinedIcon from '@mui/icons-material/GridViewOutlined';
+
 
 const NavigationBar = () => {
    return(
@@ -10,29 +16,33 @@ const NavigationBar = () => {
            </button>
 
            <div className="collapse navbar-collapse" id="navbarSupportedContent">
-               <ul className="navbar-nav mr-auto flex-column vertical-nav">
+               <ul className="navbar-nav flex-column vertical-nav">
                    <li className="nav-item">
                        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                       <a className="nav-link" href="#">Dashboard</a>
+                       <a className="nav-link" href="#">
+                       <GridViewOutlinedIcon/><span className={"pad-left"}>Dashboard</span></a>
                    </li>
                    <li className="nav-item">
                        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                       <a className="nav-link" href="#">Pages</a>
+                       <a className="nav-link" href="#">
+                       <BookOnlineOutlinedIcon/><span className={"pad-left"}>Book Scribe</span></a>
                    </li>
                    <li className="nav-item">
                        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                       <a className="nav-link" href="#">Link</a>
+                       <a className="nav-link" href="#">
+                       <PersonOutlineOutlinedIcon/><span className={"pad-left"}>Manage Booking</span></a>
                    </li>
                <li className="nav-item">
                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                   <a className="nav-link" href="#">Another Link</a>
+                   <a className="nav-link" href="#">
+                   <EventNoteOutlinedIcon/><span className={"pad-left"}>My Scribes</span></a>
                </li>
                <li className="nav-item">
                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                   <a className="nav-link" href="#">Setting</a>
+                   <a className="nav-link" href="#">
+                   <CalendarMonthOutlinedIcon/><span className={"pad-left"}>Raise Event</span></a>
                </li>
            </ul>
-
        </div>
        </nav>
        </>
