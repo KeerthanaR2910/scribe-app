@@ -1,6 +1,7 @@
 import LoginPage from "./pages/LoginPage";
 import {useState} from "react";
 import LandingPage from "./pages/LandingPage";
+import NavigationMenuProvider from "./context/NavigationBar";
 
 
 function App() {
@@ -11,7 +12,11 @@ function App() {
 
     return (
         <div>
-            {isAuthenticated ? <LandingPage/> : <LoginPage onClick={loginSubmitOnClickHandler}/>}
+            {isAuthenticated ?
+                (<NavigationMenuProvider>
+                    <LandingPage/>
+                </NavigationMenuProvider>) :
+                <LoginPage onClick={loginSubmitOnClickHandler}/>}
         </div>
     );
 }
