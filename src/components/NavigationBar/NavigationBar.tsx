@@ -9,13 +9,13 @@ import GridViewOutlinedIcon from '@mui/icons-material/GridViewOutlined';
 const NavigationBar = () => {
    return(
        <>
-       <nav className="navbar navbar-expand-lg navbar-light bg-light">
+       <nav className="navbar navbar-expand-lg">
            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span className="navbar-toggler-icon"></span>
            </button>
 
-           <div className="collapse navbar-collapse" id="navbarSupportedContent">
+           <div className="collapse navbar-collapse display-none" id="navbarSupportedContent">
                <ul className="navbar-nav flex-column vertical-nav">
                    <li className="nav-item">
                        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}

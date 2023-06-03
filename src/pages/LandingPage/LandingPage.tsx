@@ -1,9 +1,11 @@
 import NavigationBar from "../../components/NavigationBar";
+import Header from "../../components/Header";
 
 const LandingPage = () => {
   return (
       <div>
-        <NavigationBar/>
+          <Header/>
+          <NavigationBar/>
       </div>
   )
 }

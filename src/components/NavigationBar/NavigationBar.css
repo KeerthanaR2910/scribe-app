@@ -1,7 +1,7 @@
 @media (min-width:992px) {
     .vertical-nav {
         position: fixed;
-        top: 56px;
+        top: 10vh;
         left: 0;
         width: 15%;
         height: 100%;

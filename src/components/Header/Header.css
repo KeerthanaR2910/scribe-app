@@ -1,0 +1,10 @@
+.header-bg {
+    background: #EEEEEE;
+    height:10vh !important;
+}
+
+@media screen and (max-width:768px) {
+    .header-bg {
+        display: none;
+    }
+}
