@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/scripe-app/static/css/main.5086a24b.css",
-    "main.js": "/scripe-app/static/js/main.7001c2fd.js",
-    "static/js/787.b527b7bf.chunk.js": "/scripe-app/static/js/787.b527b7bf.chunk.js",
-    "index.html": "/scripe-app/index.html",
-    "main.5086a24b.css.map": "/scripe-app/static/css/main.5086a24b.css.map",
-    "main.7001c2fd.js.map": "/scripe-app/static/js/main.7001c2fd.js.map",
-    "787.b527b7bf.chunk.js.map": "/scripe-app/static/js/787.b527b7bf.chunk.js.map"
+    "main.css": "/test-app/static/css/main.5086a24b.css",
+    "main.js": "/test-app/static/js/main.8088c2ba.js",
+    "static/js/787.b527b7bf.chunk.js": "/test-app/static/js/787.b527b7bf.chunk.js",
+    "index.html": "/test-app/index.html",
+    "main.5086a24b.css.map": "/test-app/static/css/main.5086a24b.css.map",
+    "main.8088c2ba.js.map": "/test-app/static/js/main.8088c2ba.js.map",
+    "787.b527b7bf.chunk.js.map": "/test-app/static/js/787.b527b7bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5086a24b.css",
-    "static/js/main.7001c2fd.js"
+    "static/js/main.8088c2ba.js"
   ]
 }
