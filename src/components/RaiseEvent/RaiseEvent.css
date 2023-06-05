@@ -1,14 +1,78 @@
 .raise-event-container {
     height: 100vh;
-
+    margin-top: 10vh;
 }
-@media (min-width:992px) {
+
+@media (min-width: 992px) {
     .raise-event-container {
         margin-left: 17%;
     }
 }
+
 @media screen and (min-width: 1024px) and (max-width: 1400px) {
     .raise-event-container {
         margin-left: 23%;
     }
+}
+
+.container {
+    width: 100vh;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+    width: 40%;
+    margin: 2%;
+}
+
+.item input, select {
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 46px;
+    padding: 5px;
+}
+
+.item span{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #444444;
+}
+
+.file-selector::-webkit-file-upload-button {
+    display: none;
+}
+
+.file-selector::before {
+    display: inline-block;
+    content:'import .csv file';
+    border-right: 1px solid #CCCCCC;
+    height: 100%;
+    padding: 5px;
+}
+@media screen and (max-width: 992px) {
+    .item {
+        width: 90%;
+    }
+
+    .submit-button {
+        width: 90% !important;
+    }
+}
+
+.submit-button {
+    width: 84%;
+    margin: 2%;
 }
