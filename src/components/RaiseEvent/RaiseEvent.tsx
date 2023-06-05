@@ -32,7 +32,7 @@ const RaiseEvent = () => {
                             <option value="yes">Yes</option>
                             <option value="no">No</option>
                         </select>
-                    <ield/div>
+                    </div>
                     <div className="item">
                         <span>Candidate Details</span>
                         <input type="file" accept={".csv"} className="file-selector"/>
